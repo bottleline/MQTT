@@ -20,9 +20,9 @@ password_file /etc/mosquitto/passwd
 
 
 ## 3. Mysql 설치
-  
+
 yum -y install mariadb-server maridb-client  
 systemctl enable mariadb // 시스템실행시 자동실행  
-systemctl start maridb //서비스실행  
+systemctl start maridb //서비스실행   
 --------------------------------------------------------------------------  
-mysql -u root -p //  
+mysql -u root -p //  로그인
